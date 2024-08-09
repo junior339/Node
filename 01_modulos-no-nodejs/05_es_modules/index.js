@@ -1,0 +1,13 @@
+//antigo
+//const{createProduct,Product}=require("./product")
+
+//para importar novo
+import{createProduct,Product,productPrice} from "./product.js";
+
+const p1=createProduct(10,"smart",2000);
+const p2=createProduct(11,"notebook",3000);
+console.log("ID:",p1.id ,p1.name ,p1.price)
+console.log(p2.id ,p2.name ,p2.price)
+console.log(productPrice)
+
+
