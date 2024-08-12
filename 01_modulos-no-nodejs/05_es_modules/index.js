@@ -1,12 +1,20 @@
 import lodash from "lodash";
 
 const {filter}=lodash;
+//ou
+lodash.filter();
 
 //antigo
 //const{createProduct,Product}=require("./product")
 
 //para importar novo
 import{createProduct,Product,productPrice} from "./product.js";
+
+//importando tudo 
+import * as productModule from "./product.js"
+//como acessar
+//productModule.createProduct();
+
 
 const p1=createProduct(10,"smart",2000);
 const p2=createProduct(11,"notebook",3000);
