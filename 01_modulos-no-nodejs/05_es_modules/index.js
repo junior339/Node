@@ -1,3 +1,7 @@
+import lodash from "lodash";
+
+const {filter}=lodash;
+
 //antigo
 //const{createProduct,Product}=require("./product")
 

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start:dev": "nodemon index.js",
-    "listar":"ls"
+    "listar": "ls"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "description": "",
   "devDependencies": {
     "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
