@@ -13,7 +13,7 @@ import{createProduct,Product,productPrice} from "./product.js";
 //importando tudo 
 import * as productModule from "./product.js"
 //como acessar
-//productModule.createProduct();
+productModule.createProduct();//aqui eu tenho um meio de chamar
 
 
 const p1=createProduct(10,"smart",2000);
