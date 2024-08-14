@@ -1,5 +1,15 @@
 console.log("primeira parte")
+const fim=7000
 
+setTimeout(() => {
+    console.log(`fim da execução apos ${fim/1000} segundos`)
+},fim);
+setTimeout(() => {
+    console.log("espera de 5 segundos")
+}, 5000);
+setTimeout(() => {
+    console.log("espera de 4 segundos")
+}, 4000);
 setTimeout(() => {
     console.log("espera de 3 segundos")
 }, 3000);
@@ -8,7 +18,7 @@ setTimeout(()=>{
      console.log("espera de 0 segundos")
 },0);
 
-console.log("finalizando")
+console.log("final do codigo normal")
 
 //como podemos notar aqui temos um tipo de codigo assincrono 
 /*
