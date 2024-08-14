@@ -27,3 +27,6 @@ console.log(path.join(__dirname,"message.txt"))
 
 fs.writeFile(path.join(__dirname,"message.txt"),"novo arquivo de teste",()=>{});
 
+
+// a documentação é bem auto explicativa então e so ler 
+

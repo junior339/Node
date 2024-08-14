@@ -22,4 +22,5 @@ console.log("ID:",p1.id ,p1.name ,p1.price)
 console.log(p2.id ,p2.name ,p2.price)
 console.log(productPrice)
 
-
+console.log("-----")
+console.log(p1.getInfo())

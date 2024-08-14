@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "não esqueça de adicionar o type=module",
   "devDependencies": {
     "nodemon": "^3.1.4"
   },
